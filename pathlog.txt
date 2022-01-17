@@ -1,0 +1,429 @@
+LOG BEGIN
+
+
+Number of JUMPS = 4
+
+1:4:1 -30002693|Egghelende- *30002650* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+1:1 -30002693|Egghelende-
++------- Created New System: 30002539|Siseide -|- Stargates: [30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]
+~|~ PASSING QUERY
+2:3:2 -30002539|Siseide- *30002650* +[30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]+ Starting query
++!+ ----- 30002095 not found in check_dict |gate_check set to True
+2:2 -30002539|Siseide-
++------- Created New System: 30002095|Eszur -|- Stargates: [30002090, 30002093, 30002094, 30002096, 30002539]
+~|~ PASSING QUERY
+3:2:3 -30002095|Eszur- *30002650* +[30002090, 30002093, 30002094, 30002096, 30002539]+ Starting query
++!+ ----- 30002090 not found in check_dict |gate_check set to True
+3:3 -30002095|Eszur-
++------- Created New System: 30002090|Frerstorn -|- Stargates: [30002058, 30002091, 30002092, 30002093, 30002094, 30002095]
+~|~ PASSING QUERY
+4:1:4 -30002090|Frerstorn- *30002650* +[30002058, 30002091, 30002092, 30002093, 30002094, 30002095]+ Starting query
+4:4 -30002090|Frerstorn- End Branch; returning False
++!+ ----- 30002093 not found in check_dict |gate_check set to True
+3:4 -30002095|Eszur-
++------- Created New System: 30002093|Gebuladi -|- Stargates: [30002090, 30002091, 30002094, 30002095]
+~|~ PASSING QUERY
+4:1:5 -30002093|Gebuladi- *30002650* +[30002090, 30002091, 30002094, 30002095]+ Starting query
+4:5 -30002093|Gebuladi- End Branch; returning False
++!+ ----- 30002094 not found in check_dict |gate_check set to True
+3:5 -30002095|Eszur-
++------- Created New System: 30002094|Ebolfer -|- Stargates: [30002090, 30002091, 30002092, 30002093, 30002095]
+~|~ PASSING QUERY
+4:1:6 -30002094|Ebolfer- *30002650* +[30002090, 30002091, 30002092, 30002093, 30002095]+ Starting query
+4:6 -30002094|Ebolfer- End Branch; returning False
++!+ ----- 30002096 not found in check_dict |gate_check set to True
+3:6 -30002095|Eszur-
++------- Created New System: 30002096|Hofjaldgund -|- Stargates: [30002095, 30002541]
+~|~ PASSING QUERY
+4:1:7 -30002096|Hofjaldgund- *30002650* +[30002095, 30002541]+ Starting query
+4:7 -30002096|Hofjaldgund- End Branch; returning False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+3:7 -30002095|Eszur- Returning False
++!+ ----- 30002537 not found in check_dict |gate_check set to True
+2:7 -30002539|Siseide-
++------- Created New System: 30002537|Amamake -|- Stargates: [30002506, 30002517, 30002538, 30002539, 30002541, 30002542]
+~|~ PASSING QUERY
+3:2:8 -30002537|Amamake- *30002650* +[30002506, 30002517, 30002538, 30002539, 30002541, 30002542]+ Starting query
++!+ ----- 30002506 not found in check_dict |gate_check set to True
+3:8 -30002537|Amamake-
++------- Created New System: 30002506|Osoggur -|- Stargates: [30002507, 30002537]
+~|~ PASSING QUERY
+4:1:9 -30002506|Osoggur- *30002650* +[30002507, 30002537]+ Starting query
+4:9 -30002506|Osoggur- End Branch; returning False
++!+ ----- 30002517 not found in check_dict |gate_check set to True
+3:9 -30002537|Amamake-
++------- Created New System: 30002517|Gulmorogod -|- Stargates: [30002099, 30002514, 30002516, 30002537]
+~|~ PASSING QUERY
+4:1:10 -30002517|Gulmorogod- *30002650* +[30002099, 30002514, 30002516, 30002537]+ Starting query
+4:10 -30002517|Gulmorogod- End Branch; returning False
++!+ ----- 30002538 not found in check_dict |gate_check set to True
+3:10 -30002537|Amamake-
++------- Created New System: 30002538|Vard -|- Stargates: [30002537, 30002539, 30002540, 30002541, 30002962]
+~|~ PASSING QUERY
+4:1:11 -30002538|Vard- *30002650* +[30002537, 30002539, 30002540, 30002541, 30002962]+ Starting query
+4:11 -30002538|Vard- End Branch; returning False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++!+ ----- 30002541 not found in check_dict |gate_check set to True
+3:11 -30002537|Amamake-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:12 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:12 -30002541|Dal- End Branch; returning False
++!+ ----- 30002542 not found in check_dict |gate_check set to True
+3:12 -30002537|Amamake-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+4:1:13 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
+4:13 -30002542|Auga- End Branch; returning False
+3:13 -30002537|Amamake- Returning False
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 4 | gate_check set to True
+2:13 -30002539|Siseide-
++------- Created New System: 30002538|Vard -|- Stargates: [30002537, 30002539, 30002540, 30002541, 30002962]
+~|~ PASSING QUERY
+3:2:14 -30002538|Vard- *30002650* +[30002537, 30002539, 30002540, 30002541, 30002962]+ Starting query
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++!+ ----- 30002540 not found in check_dict |gate_check set to True
+3:14 -30002538|Vard-
++------- Created New System: 30002540|Lantorn -|- Stargates: [30002538, 30002539, 30002541]
+~|~ PASSING QUERY
+4:1:15 -30002540|Lantorn- *30002650* +[30002538, 30002539, 30002541]+ Starting query
+4:15 -30002540|Lantorn- End Branch; returning False
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+3:15 -30002538|Vard-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:16 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:16 -30002541|Dal- End Branch; returning False
++!+ ----- 30002962 not found in check_dict |gate_check set to True
+3:16 -30002538|Vard-
++------- Created New System: 30002962|Ezzara -|- Stargates: [30002538, 30002960]
+~|~ PASSING QUERY
+4:1:17 -30002962|Ezzara- *30002650* +[30002538, 30002960]+ Starting query
+4:17 -30002962|Ezzara- End Branch; returning False
+3:17 -30002538|Vard- Returning False
++++ ----- 30002540 | Lantorn found in check_dict |gate_num set to 4 | gate_check set to True
+2:17 -30002539|Siseide-
++------- Created New System: 30002540|Lantorn -|- Stargates: [30002538, 30002539, 30002541]
+~|~ PASSING QUERY
+3:2:18 -30002540|Lantorn- *30002650* +[30002538, 30002539, 30002541]+ Starting query
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+3:18 -30002540|Lantorn-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:19 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:19 -30002541|Dal- End Branch; returning False
+3:19 -30002540|Lantorn- Returning False
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+2:19 -30002539|Siseide-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+3:2:20 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
++++ ----- 30002096 | Hofjaldgund found in check_dict |gate_num set to 4 | gate_check set to True
+3:20 -30002541|Dal-
++------- Created New System: 30002096|Hofjaldgund -|- Stargates: [30002095, 30002541]
+~|~ PASSING QUERY
+4:1:21 -30002096|Hofjaldgund- *30002650* +[30002095, 30002541]+ Starting query
+4:21 -30002096|Hofjaldgund- End Branch; returning False
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002540 | Lantorn found in check_dict |gate_num set to 3 | gate_check set to False
++++ ----- 30002542 | Auga found in check_dict |gate_num set to 4 | gate_check set to True
+3:21 -30002541|Dal-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+4:1:22 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
+4:22 -30002542|Auga- End Branch; returning False
+3:22 -30002541|Dal- Returning False
++++ ----- 30002542 | Auga found in check_dict |gate_num set to 4 | gate_check set to True
+2:22 -30002539|Siseide-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+3:2:23 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30003068 not found in check_dict |gate_check set to True
+3:23 -30002542|Auga-
++------- Created New System: 30003068|Kourmonen -|- Stargates: [30002542, 30003063, 30003067, 30003069]
+~|~ PASSING QUERY
+4:1:24 -30003068|Kourmonen- *30002650* +[30002542, 30003063, 30003067, 30003069]+ Starting query
+4:24 -30003068|Kourmonen- End Branch; returning False
+3:24 -30002542|Auga- Returning False
++!+ ----- 30002693 not found in check_dict |gate_check set to True
+2:24 -30002539|Siseide- Returning False
++!+ ----- 30002692 not found in check_dict |gate_check set to True
+1:24 -30002693|Egghelende-
++------- Created New System: 30002692|Jel -|- Stargates: [30002693, 30002695, 30003030]
+~|~ PASSING QUERY
+2:3:25 -30002692|Jel- *30002650* +[30002693, 30002695, 30003030]+ Starting query
++!+ ----- 30002693 not found in check_dict |gate_check set to True
++!+ ----- 30002695 not found in check_dict |gate_check set to True
+2:25 -30002692|Jel-
++------- Created New System: 30002695|Ation -|- Stargates: [30002692, 30002693]
+~|~ PASSING QUERY
+3:2:26 -30002695|Ation- *30002650* +[30002692, 30002693]+ Starting query
++!+ ----- 30002692 not found in check_dict |gate_check set to True
++!+ ----- 30002693 not found in check_dict |gate_check set to True
+3:26 -30002695|Ation-
++------- Created New System: 30002693|Egghelende -|- Stargates: [30002539, 30002692, 30002694, 30002695, 30002698, 30002716]
+~|~ PASSING QUERY
+4:1:27 -30002693|Egghelende- *30002650* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+4:27 -30002693|Egghelende- End Branch; returning False
+3:27 -30002695|Ation- Returning False
++!+ ----- 30003030 not found in check_dict |gate_check set to True
+2:27 -30002692|Jel-
++------- Created New System: 30003030|Ardallabier -|- Stargates: [30002648, 30002692, 30002699, 30003025]
+~|~ PASSING QUERY
+3:2:28 -30003030|Ardallabier- *30002650* +[30002648, 30002692, 30002699, 30003025]+ Starting query
++!+ ----- 30002648 not found in check_dict |gate_check set to True
+3:28 -30003030|Ardallabier-
++------- Created New System: 30002648|Ardene -|- Stargates: [30002649, 30002650, 30002704, 30003030]
+~|~ PASSING QUERY
+4:1:29 -30002648|Ardene- *30002650* +[30002649, 30002650, 30002704, 30003030]+ Starting query
+4:29 -30002648|Ardene- FOUND GOAL; returning [30002648, 30002650]
+3:29 -30003030|Ardallabier- Returning [30003030, 30002648, 30002650] (NOT FALSE)
+2:29 -30002692|Jel- Returning [30002692, 30003030, 30002648, 30002650] (NOT FALSE)
+1:29 -30002693|Egghelende- Returning [30002693, 30002692, 30003030, 30002648, 30002650] (NOT FALSE)
+
+
+Number of JUMPS = 3
+
+1:3:1 -30002693|Egghelende- *30002539* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+1:1 -30002693|Egghelende- FOUND GOAL; returning [30002693, 30002539]
+
+
+Number of JUMPS = 4
+
+1:4:1 -30002693|Egghelende- *30002537* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+1:1 -30002693|Egghelende-
++------- Created New System: 30002539|Siseide -|- Stargates: [30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]
+~|~ PASSING QUERY
+2:3:2 -30002539|Siseide- *30002537* +[30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]+ Starting query
+2:2 -30002539|Siseide- FOUND GOAL; returning [30002539, 30002537]
+1:2 -30002693|Egghelende- Returning [30002693, 30002539, 30002537] (NOT FALSE)
+
+
+Number of JUMPS = 1
+
+1:1:1 -30002693|Egghelende- *30002698* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+1:1 -30002693|Egghelende- FOUND GOAL; returning [30002693, 30002698]
+
+
+Number of JUMPS = 4
+
+1:4:1 -30002693|Egghelende- *30002650* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+1:1 -30002693|Egghelende-
++------- Created New System: 30002539|Siseide -|- Stargates: [30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]
+~|~ PASSING QUERY
+2:3:2 -30002539|Siseide- *30002650* +[30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]+ Starting query
++!+ ----- 30002095 not found in check_dict |gate_check set to True
+2:2 -30002539|Siseide-
++------- Created New System: 30002095|Eszur -|- Stargates: [30002090, 30002093, 30002094, 30002096, 30002539]
+~|~ PASSING QUERY
+3:2:3 -30002095|Eszur- *30002650* +[30002090, 30002093, 30002094, 30002096, 30002539]+ Starting query
++!+ ----- 30002090 not found in check_dict |gate_check set to True
+3:3 -30002095|Eszur-
++------- Created New System: 30002090|Frerstorn -|- Stargates: [30002058, 30002091, 30002092, 30002093, 30002094, 30002095]
+~|~ PASSING QUERY
+4:1:4 -30002090|Frerstorn- *30002650* +[30002058, 30002091, 30002092, 30002093, 30002094, 30002095]+ Starting query
+4:4 -30002090|Frerstorn- End Branch; returning False
++!+ ----- 30002093 not found in check_dict |gate_check set to True
+3:4 -30002095|Eszur-
++------- Created New System: 30002093|Gebuladi -|- Stargates: [30002090, 30002091, 30002094, 30002095]
+~|~ PASSING QUERY
+4:1:5 -30002093|Gebuladi- *30002650* +[30002090, 30002091, 30002094, 30002095]+ Starting query
+4:5 -30002093|Gebuladi- End Branch; returning False
++!+ ----- 30002094 not found in check_dict |gate_check set to True
+3:5 -30002095|Eszur-
++------- Created New System: 30002094|Ebolfer -|- Stargates: [30002090, 30002091, 30002092, 30002093, 30002095]
+~|~ PASSING QUERY
+4:1:6 -30002094|Ebolfer- *30002650* +[30002090, 30002091, 30002092, 30002093, 30002095]+ Starting query
+4:6 -30002094|Ebolfer- End Branch; returning False
++!+ ----- 30002096 not found in check_dict |gate_check set to True
+3:6 -30002095|Eszur-
++------- Created New System: 30002096|Hofjaldgund -|- Stargates: [30002095, 30002541]
+~|~ PASSING QUERY
+4:1:7 -30002096|Hofjaldgund- *30002650* +[30002095, 30002541]+ Starting query
+4:7 -30002096|Hofjaldgund- End Branch; returning False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+3:7 -30002095|Eszur- Returning False
++!+ ----- 30002537 not found in check_dict |gate_check set to True
+2:7 -30002539|Siseide-
++------- Created New System: 30002537|Amamake -|- Stargates: [30002506, 30002517, 30002538, 30002539, 30002541, 30002542]
+~|~ PASSING QUERY
+3:2:8 -30002537|Amamake- *30002650* +[30002506, 30002517, 30002538, 30002539, 30002541, 30002542]+ Starting query
++!+ ----- 30002506 not found in check_dict |gate_check set to True
+3:8 -30002537|Amamake-
++------- Created New System: 30002506|Osoggur -|- Stargates: [30002507, 30002537]
+~|~ PASSING QUERY
+4:1:9 -30002506|Osoggur- *30002650* +[30002507, 30002537]+ Starting query
+4:9 -30002506|Osoggur- End Branch; returning False
++!+ ----- 30002517 not found in check_dict |gate_check set to True
+3:9 -30002537|Amamake-
++------- Created New System: 30002517|Gulmorogod -|- Stargates: [30002099, 30002514, 30002516, 30002537]
+~|~ PASSING QUERY
+4:1:10 -30002517|Gulmorogod- *30002650* +[30002099, 30002514, 30002516, 30002537]+ Starting query
+4:10 -30002517|Gulmorogod- End Branch; returning False
++!+ ----- 30002538 not found in check_dict |gate_check set to True
+3:10 -30002537|Amamake-
++------- Created New System: 30002538|Vard -|- Stargates: [30002537, 30002539, 30002540, 30002541, 30002962]
+~|~ PASSING QUERY
+4:1:11 -30002538|Vard- *30002650* +[30002537, 30002539, 30002540, 30002541, 30002962]+ Starting query
+4:11 -30002538|Vard- End Branch; returning False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++!+ ----- 30002541 not found in check_dict |gate_check set to True
+3:11 -30002537|Amamake-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:12 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:12 -30002541|Dal- End Branch; returning False
++!+ ----- 30002542 not found in check_dict |gate_check set to True
+3:12 -30002537|Amamake-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+4:1:13 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
+4:13 -30002542|Auga- End Branch; returning False
+3:13 -30002537|Amamake- Returning False
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 4 | gate_check set to True
+2:13 -30002539|Siseide-
++------- Created New System: 30002538|Vard -|- Stargates: [30002537, 30002539, 30002540, 30002541, 30002962]
+~|~ PASSING QUERY
+3:2:14 -30002538|Vard- *30002650* +[30002537, 30002539, 30002540, 30002541, 30002962]+ Starting query
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++!+ ----- 30002540 not found in check_dict |gate_check set to True
+3:14 -30002538|Vard-
++------- Created New System: 30002540|Lantorn -|- Stargates: [30002538, 30002539, 30002541]
+~|~ PASSING QUERY
+4:1:15 -30002540|Lantorn- *30002650* +[30002538, 30002539, 30002541]+ Starting query
+4:15 -30002540|Lantorn- End Branch; returning False
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+3:15 -30002538|Vard-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:16 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:16 -30002541|Dal- End Branch; returning False
++!+ ----- 30002962 not found in check_dict |gate_check set to True
+3:16 -30002538|Vard-
++------- Created New System: 30002962|Ezzara -|- Stargates: [30002538, 30002960]
+~|~ PASSING QUERY
+4:1:17 -30002962|Ezzara- *30002650* +[30002538, 30002960]+ Starting query
+4:17 -30002962|Ezzara- End Branch; returning False
+3:17 -30002538|Vard- Returning False
++++ ----- 30002540 | Lantorn found in check_dict |gate_num set to 4 | gate_check set to True
+2:17 -30002539|Siseide-
++------- Created New System: 30002540|Lantorn -|- Stargates: [30002538, 30002539, 30002541]
+~|~ PASSING QUERY
+3:2:18 -30002540|Lantorn- *30002650* +[30002538, 30002539, 30002541]+ Starting query
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+3:18 -30002540|Lantorn-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+4:1:19 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
+4:19 -30002541|Dal- End Branch; returning False
+3:19 -30002540|Lantorn- Returning False
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 4 | gate_check set to True
+2:19 -30002539|Siseide-
++------- Created New System: 30002541|Dal -|- Stargates: [30002096, 30002537, 30002538, 30002539, 30002540, 30002542]
+~|~ PASSING QUERY
+3:2:20 -30002541|Dal- *30002650* +[30002096, 30002537, 30002538, 30002539, 30002540, 30002542]+ Starting query
++++ ----- 30002096 | Hofjaldgund found in check_dict |gate_num set to 4 | gate_check set to True
+3:20 -30002541|Dal-
++------- Created New System: 30002096|Hofjaldgund -|- Stargates: [30002095, 30002541]
+~|~ PASSING QUERY
+4:1:21 -30002096|Hofjaldgund- *30002650* +[30002095, 30002541]+ Starting query
+4:21 -30002096|Hofjaldgund- End Branch; returning False
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++++ ----- 30002538 | Vard found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002540 | Lantorn found in check_dict |gate_num set to 3 | gate_check set to False
++++ ----- 30002542 | Auga found in check_dict |gate_num set to 4 | gate_check set to True
+3:21 -30002541|Dal-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+4:1:22 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
+4:22 -30002542|Auga- End Branch; returning False
+3:22 -30002541|Dal- Returning False
++++ ----- 30002542 | Auga found in check_dict |gate_num set to 4 | gate_check set to True
+2:22 -30002539|Siseide-
++------- Created New System: 30002542|Auga -|- Stargates: [30002537, 30002539, 30002541, 30003068]
+~|~ PASSING QUERY
+3:2:23 -30002542|Auga- *30002650* +[30002537, 30002539, 30002541, 30003068]+ Starting query
++++ ----- 30002537 | Amamake found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30002539 not found in check_dict |gate_check set to True
++++ ----- 30002541 | Dal found in check_dict |gate_num set to 3 | gate_check set to False
++!+ ----- 30003068 not found in check_dict |gate_check set to True
+3:23 -30002542|Auga-
++------- Created New System: 30003068|Kourmonen -|- Stargates: [30002542, 30003063, 30003067, 30003069]
+~|~ PASSING QUERY
+4:1:24 -30003068|Kourmonen- *30002650* +[30002542, 30003063, 30003067, 30003069]+ Starting query
+4:24 -30003068|Kourmonen- End Branch; returning False
+3:24 -30002542|Auga- Returning False
++!+ ----- 30002693 not found in check_dict |gate_check set to True
+2:24 -30002539|Siseide- Returning False
++!+ ----- 30002692 not found in check_dict |gate_check set to True
+1:24 -30002693|Egghelende-
++------- Created New System: 30002692|Jel -|- Stargates: [30002693, 30002695, 30003030]
+~|~ PASSING QUERY
+2:3:25 -30002692|Jel- *30002650* +[30002693, 30002695, 30003030]+ Starting query
++!+ ----- 30002693 not found in check_dict |gate_check set to True
++!+ ----- 30002695 not found in check_dict |gate_check set to True
+2:25 -30002692|Jel-
++------- Created New System: 30002695|Ation -|- Stargates: [30002692, 30002693]
+~|~ PASSING QUERY
+3:2:26 -30002695|Ation- *30002650* +[30002692, 30002693]+ Starting query
++!+ ----- 30002692 not found in check_dict |gate_check set to True
++!+ ----- 30002693 not found in check_dict |gate_check set to True
+3:26 -30002695|Ation-
++------- Created New System: 30002693|Egghelende -|- Stargates: [30002539, 30002692, 30002694, 30002695, 30002698, 30002716]
+~|~ PASSING QUERY
+4:1:27 -30002693|Egghelende- *30002650* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+4:27 -30002693|Egghelende- End Branch; returning False
+3:27 -30002695|Ation- Returning False
++!+ ----- 30003030 not found in check_dict |gate_check set to True
+2:27 -30002692|Jel-
++------- Created New System: 30003030|Ardallabier -|- Stargates: [30002648, 30002692, 30002699, 30003025]
+~|~ PASSING QUERY
+3:2:28 -30003030|Ardallabier- *30002650* +[30002648, 30002692, 30002699, 30003025]+ Starting query
++!+ ----- 30002648 not found in check_dict |gate_check set to True
+3:28 -30003030|Ardallabier-
++------- Created New System: 30002648|Ardene -|- Stargates: [30002649, 30002650, 30002704, 30003030]
+~|~ PASSING QUERY
+4:1:29 -30002648|Ardene- *30002650* +[30002649, 30002650, 30002704, 30003030]+ Starting query
+4:29 -30002648|Ardene- FOUND GOAL; returning [30002648, 30002650]
+3:29 -30003030|Ardallabier- Returning [30003030, 30002648, 30002650] (NOT FALSE)
+2:29 -30002692|Jel- Returning [30002692, 30003030, 30002648, 30002650] (NOT FALSE)
+1:29 -30002693|Egghelende- Returning [30002693, 30002692, 30003030, 30002648, 30002650] (NOT FALSE)
+
+
+Number of JUMPS = 3
+
+1:3:1 -30002693|Egghelende- *30002539* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+1:1 -30002693|Egghelende- FOUND GOAL; returning [30002693, 30002539]
+
+
+Number of JUMPS = 4
+
+1:4:1 -30002693|Egghelende- *30002537* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
++!+ ----- 30002539 not found in check_dict |gate_check set to True
+1:1 -30002693|Egghelende-
++------- Created New System: 30002539|Siseide -|- Stargates: [30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]
+~|~ PASSING QUERY
+2:3:2 -30002539|Siseide- *30002537* +[30002095, 30002537, 30002538, 30002540, 30002541, 30002542, 30002693]+ Starting query
+2:2 -30002539|Siseide- FOUND GOAL; returning [30002539, 30002537]
+1:2 -30002693|Egghelende- Returning [30002693, 30002539, 30002537] (NOT FALSE)
+
+
+Number of JUMPS = 1
+
+1:1:1 -30002693|Egghelende- *30002698* +[30002539, 30002692, 30002694, 30002695, 30002698, 30002716]+ Starting query
+1:1 -30002693|Egghelende- FOUND GOAL; returning [30002693, 30002698]

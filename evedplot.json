@@ -1,0 +1,43 @@
+{
+    "current_system": "Egghelende",
+    "agents": {
+        "Ancye Egghonelle": {
+            "name": "Ancye Egghonelle",
+            "system": "Egghelende",
+            "status": "active",
+            "jumps": 0,
+            "missions": [
+                39085
+            ]
+        },
+        "Broen Azer": {
+            "name": "Broen Azer",
+            "system": "Ney",
+            "status": "waiting",
+            "jumps": 4,
+            "missions": []
+        },
+        "Travanula Saari": {
+            "name": "Travanula Saari",
+            "system": "Siseide",
+            "status": "waiting",
+            "jumps": 3,
+            "missions": []
+        },
+        "Kagori Alvober": {
+            "name": "Kagori Alvober",
+            "system": "Amamake",
+            "status": "waiting",
+            "jumps": 4,
+            "missions": []
+        }
+    },
+    "missions": {
+        "39085": {
+            "agent": "Ancye Egghonelle",
+            "destination": "Aliette",
+            "missionid": 39085,
+            "jumps": 1
+        }
+    }
+}
